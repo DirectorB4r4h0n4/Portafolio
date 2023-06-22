@@ -1,0 +1,47 @@
+.header{
+    background-color: rgba(23, 74, 150, 0.411);
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  h1{color:rgb(182, 3, 3)}
+ 
+  
+  .item:hover img{
+    opacity: 0.33;
+  }  
+
+ .grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p{
+  border-style: dotted;
+  padding: 3%;
+}
+
+a{
+  display: inline-block;
+  margin-left: 4%;
+  margin-right: 3%;
+  
+}
+
+a:link{
+  background: rgb(107, 129, 158);
+  display: inline-block;
+}
+
+a:hover{
+  background: orange;
+}
+
+a:active{
+  background: red;
+  color: white;
+}
+body{
+  background-color: rgb(173, 197, 216);
+}
